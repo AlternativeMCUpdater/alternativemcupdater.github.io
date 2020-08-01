@@ -47,7 +47,12 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/librairies/": ["", "flow-updater"],
+      "/librairies/": [
+        "",
+        "flow-updater",
+        "minecraft-launcher-core",
+        "minelaup",
+      ],
       "/cours/": [""],
     },
   },
@@ -61,7 +66,11 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+  plugins: [
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "seo",
+  ],
 
   markdown: {
     toc: {

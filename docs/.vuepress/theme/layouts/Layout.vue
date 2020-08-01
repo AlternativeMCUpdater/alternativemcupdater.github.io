@@ -1,5 +1,7 @@
 <template>
-  <div class="overflow-auto min-h-screen flex flex-col">
+  <div
+    class="overflow-auto min-h-screen flex flex-col dark:bg-gray-900 dark:text-white"
+  >
     <Header />
     <component :is="layout" class="flex-1"></component>
   </div>

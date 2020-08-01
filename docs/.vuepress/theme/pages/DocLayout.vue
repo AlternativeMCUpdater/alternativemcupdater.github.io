@@ -5,6 +5,13 @@
       <article class="p-10">
         <h1 class="uppercase text-4xl font-bold mb-6">
           {{ $page.title }}
+
+          <Badge
+            v-if="badge"
+            :type="badge.type"
+            :text="badge.text"
+            vertical="middle"
+          />
         </h1>
         <Content class="markdown-content" />
       </article>
@@ -33,6 +40,16 @@ export default {
         this.$site,
         this.$localePath
       );
+    },
+    badge() {
+      if (this.$page.frontmatter.badge) {
+        const [type, text] = this.$page.frontmatter.badge.split(":");
+        return {
+          type,
+          text,
+        };
+      }
+      return null;
     },
   },
   mounted() {

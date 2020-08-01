@@ -62,3 +62,15 @@ body {
     @apply font-mono;
   }
 }
+
+.dark-mode {
+  .markdown-content {
+    a {
+      @apply text-teal-400;
+
+      &:hover {
+        @apply text-teal-300;
+      }
+    }
+  }
+}

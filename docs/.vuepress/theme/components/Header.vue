@@ -25,10 +25,34 @@
       >
         Librairies
       </router-link>
+      <a
+        class="hover:text-teal-600 dark-hover:text-teal-300 transition-colors duration-75 text-lg p-2 cursor-pointer"
+        @click="toggle()"
+      >
+        <i
+          class="fas"
+          :class="{
+            'fa-sun': !mode,
+            'fa-moon': mode,
+          }"
+        ></i>
+      </a>
     </div>
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      mode: this.$colorMode.isDark(),
+    };
+  },
+  methods: {
+    toggle() {
+      this.$colorMode.toggle();
+      this.mode = this.$colorMode.isDark();
+    },
+  },
+};
 </script>

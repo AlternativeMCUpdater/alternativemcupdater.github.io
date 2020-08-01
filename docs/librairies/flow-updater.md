@@ -1,6 +1,6 @@
 ---
 title: Flow Updater
-category: Pour commencer
+category: Documentations
 position: 1
 ---
 

@@ -18,4 +18,4 @@ Sur cette page vous pourrez trouves une liste non exhaustive de librairies que v
 ## NodeJS
 
 * [`MineLaup`]()<Badge text="WIP" type="warning" vertical="middle" />
-* [`minecraft-launcher-core`]()
+* [`minecraft-launcher-core`](./minecraft-launcher-core.md)

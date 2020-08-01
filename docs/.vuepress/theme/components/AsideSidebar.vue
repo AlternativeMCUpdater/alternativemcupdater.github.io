@@ -12,7 +12,7 @@
             <router-link
               :to="link.path"
               class="hover:text-teal-600 dark-hover:text-teal-300 duration-75 transition-colors"
-              exact-active-class="text-teal-600"
+              exact-active-class="text-teal-600 dark:text-teal-300"
             >
               {{ link.title }}
             </router-link>

@@ -8,7 +8,7 @@
         </h1>
         <router-link
           to="/librairies/"
-          class="p-4 bg-teal-400 text-white rounded"
+          class="p-4 bg-teal-500 dark:bg-teal-600 text-white rounded"
         >
           <i class="fa fa-arrow-right mr-2"></i>
           <span>
@@ -17,7 +17,7 @@
         </router-link>
       </section>
     </div>
-    <div class="border-b border-t shadow-inner bg-teal-500">
+    <div class="border-b border-t shadow-inner bg-teal-500 dark:bg-teal-600">
       <Section side="left" class="text-white">
         <template slot="title">Qui somme nous ?</template>
         <template slot="content">
@@ -52,7 +52,7 @@
         <template slot="second-content">
           <a
             href="https://github.com/AlternativeMCUpdater"
-            class="bg-black p-4 text-white rounded-lg"
+            class="bg-black dark:bg-white p-4 text-white dark:text-black rounded-lg"
           >
             <span class="mr-2">
               <i class="fab fa-github"></i>
