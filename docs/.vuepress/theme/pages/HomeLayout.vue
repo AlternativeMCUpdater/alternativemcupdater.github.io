@@ -1,11 +1,20 @@
 <template>
   <div>
     <div>
-      <section class="p-20 max-w-6xl mx-auto flex justify-center align-middle">
-        <h1 class="uppercase font-sans text-4xl text-center">
+      <section class="p-20 max-w-6xl mx-auto text-center">
+        <h1 class="uppercase font-sans text-4xl mb-12">
           Projet <br />
           <span class="font-bold">Alternative MC Updater</span>
         </h1>
+        <router-link
+          to="/librairies/"
+          class="p-4 bg-teal-400 text-white rounded"
+        >
+          <i class="fa fa-arrow-right mr-2"></i>
+          <span>
+            Commencer
+          </span>
+        </router-link>
       </section>
     </div>
     <div class="border-b border-t shadow-inner bg-teal-500">

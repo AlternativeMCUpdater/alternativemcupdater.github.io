@@ -12,3 +12,57 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 body {
   margin: 0;
 }
+
+.markdown-content {
+  h2 {
+    @apply text-3xl uppercase font-bold;
+  }
+
+  h3 {
+    @apply text-2xl uppercase font-bold;
+  }
+
+  h4 {
+    @apply text-xl uppercase font-bold;
+  }
+
+  .header-anchor:hover {
+    @apply text-teal-600;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  ul {
+    @apply list-inside list-disc;
+  }
+
+  .table-of-contents {
+    @apply border-l-2 px-4 py-1 w-64;
+
+    .toc-header {
+      @apply font-bold pb-2 text-lg;
+    }
+
+    a {
+      @apply text-teal-600;
+
+      &:hover {
+        @apply text-teal-500;
+      }
+    }
+  }
+
+  a {
+    @apply text-teal-600;
+
+    &:hover {
+      @apply text-teal-500;
+    }
+  }
+
+  code {
+    @apply font-mono;
+  }
+}

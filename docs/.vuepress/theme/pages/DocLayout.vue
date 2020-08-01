@@ -3,7 +3,10 @@
     <aside-sidebar :items="sidebarItems" class="hidden lg:block" />
     <div class="w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4">
       <article class="p-10">
-        <Content />
+        <h1 class="uppercase text-4xl font-bold mb-6">
+          {{ $page.title }}
+        </h1>
+        <Content class="markdown-content" />
       </article>
     </div>
   </div>
