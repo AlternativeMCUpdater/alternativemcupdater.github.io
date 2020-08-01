@@ -1,7 +1,15 @@
 <template>
   <div>
     <div>
-      <Section side="left">
+      <section class="p-20 max-w-6xl mx-auto flex justify-center align-middle">
+        <h1 class="uppercase font-sans text-4xl text-center">
+          Projet <br />
+          <span class="font-bold">Alternative MC Updater</span>
+        </h1>
+      </section>
+    </div>
+    <div class="border-b border-t shadow-inner bg-teal-500">
+      <Section side="left" class="text-white">
         <template slot="title">Qui somme nous ?</template>
         <template slot="content">
           Nous somme une petite équipe de développeurs indépendants qui avons
@@ -9,12 +17,12 @@
           créer leur propres launcher pour Minecraft.
         </template>
         <template slot="second-content">
-          <i class="text-gray-400 fas fa-users big-icons"></i>
+          <i class="text-gray-200 fas fa-users big-icons"></i>
         </template>
       </Section>
     </div>
-    <div class="border-b border-t shadow-inner bg-teal-500">
-      <Section side="right" class="text-white">
+    <div>
+      <Section side="right">
         <template slot="title">A quoi sert ce site ?</template>
         <template slot="content">
           Sur ce site vous allez trouver des redirections vers des cours, des
@@ -22,12 +30,12 @@
           pour créer des launchers Minecraft.
         </template>
         <template slot="second-content">
-          <i class="text-gray-200 fas fa-question-circle big-icons"></i>
+          <i class="text-gray-400 fas fa-question-circle big-icons"></i>
         </template>
       </Section>
     </div>
-    <div>
-      <Section side="left">
+    <div class="border-b border-t shadow-inner bg-teal-500">
+      <Section side="left" class="text-white">
         <template slot="title">Retrouvez nous</template>
         <template slot="content">
           Vous pouvez nous retrouver sur Github afin d'échanger avec nous.

@@ -38,26 +38,17 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: "Guide",
-        link: "/guide/",
+        text: "Cours",
+        link: "/cours/",
       },
       {
-        text: "Config",
-        link: "/config/",
-      },
-      {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org",
+        text: "Libraries",
+        link: "/librairies/",
       },
     ],
     sidebar: {
-      "/guide/": [
-        {
-          title: "Guide",
-          collapsable: false,
-          children: ["", "using-vue"],
-        },
-      ],
+      "/librairies/": ["", "flow-updater"],
+      "/cours/": [""],
     },
   },
 
