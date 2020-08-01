@@ -1,6 +1,6 @@
 {
   "name": "alternativemcupdater.github.io",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Un site répertoriant de multiples ressources pour la création de launchers Minecraft.",
   "main": "index.js",
   "authors": {
