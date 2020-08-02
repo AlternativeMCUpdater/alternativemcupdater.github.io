@@ -26,7 +26,8 @@ body {
     @apply text-xl uppercase font-bold;
   }
 
-  p {
+  p,
+  ul {
     @apply mb-4;
   }
 
@@ -39,6 +40,10 @@ body {
 
     .toc-header {
       @apply font-bold pb-2 text-lg;
+    }
+
+    ul {
+      @apply m-0;
     }
 
     a {

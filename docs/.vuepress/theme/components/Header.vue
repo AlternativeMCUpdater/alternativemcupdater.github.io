@@ -83,7 +83,7 @@ export default {
         window.matchMedia &&
         this.prefersColorScheme("").media !== "not all"
       ) {
-        for (const colorScheme of knownColorSchemes) {
+        for (const colorScheme of ["dark", "light"]) {
           if (this.prefersColorScheme(":" + colorScheme).matches) {
             return colorScheme;
           }
