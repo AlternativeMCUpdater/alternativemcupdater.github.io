@@ -5,7 +5,6 @@
  */
 import axios from "axios";
 import VueAxios from "vue-axios";
-import ColorMode from "./theme/util/color-mode";
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -15,6 +14,4 @@ export default ({
 }) => {
   // ...apply enhancements for the site.
   Vue.use(VueAxios, axios);
-
-  Vue.prototype.$colorMode = new ColorMode();
 };
