@@ -15,15 +15,27 @@ body {
 
 .markdown-content {
   h2 {
-    @apply text-3xl uppercase font-bold;
+    @apply text-2xl uppercase font-bold;
+
+    @media (min-width: theme("screens.md")) {
+      @apply text-3xl;
+    }
   }
 
   h3 {
-    @apply text-2xl uppercase font-bold;
+    @apply text-xl uppercase font-bold;
+
+    @media (min-width: theme("screens.md")) {
+      @apply text-2xl;
+    }
   }
 
   h4 {
-    @apply text-xl uppercase font-bold;
+    @apply text-lg uppercase font-bold;
+
+    @media (min-width: theme("screens.md")) {
+      @apply text-xl;
+    }
   }
 
   p,

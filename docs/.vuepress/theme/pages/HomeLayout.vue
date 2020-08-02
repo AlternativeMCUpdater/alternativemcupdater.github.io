@@ -2,7 +2,7 @@
   <div>
     <div>
       <section class="p-20 max-w-6xl mx-auto text-center">
-        <h1 class="uppercase font-sans text-4xl mb-12">
+        <h1 class="uppercase font-sans text-3xl md:text-4xl mb-12">
           Projet <br />
           <span class="font-bold">Alternative MC Updater</span>
         </h1>

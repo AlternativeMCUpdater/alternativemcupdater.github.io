@@ -1,11 +1,14 @@
 <template>
-  <header class="h-24 border-b flex flex-row items-center px-10">
+  <header
+    class="h-32 md:h-24 border-b flex flex-col md:flex-row items-center px-4 md:px-10"
+  >
     <router-link
-      class="uppercase font-bold font-sans text-xl leading-none"
+      class="uppercase font-bold font-sans text-xl leading-none flex-1 mt-4 md:m-0"
       to="/"
     >
       Alternative<br />MC Updater
     </router-link>
+
     <div class="flex-1 flex justify-end">
       <router-link
         to="/"

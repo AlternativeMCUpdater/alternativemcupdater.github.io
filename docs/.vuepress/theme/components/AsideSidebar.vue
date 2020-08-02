@@ -1,5 +1,5 @@
 <template>
-  <aside class="border-r w-64 py-4 my-4">
+  <aside class="border-r w-64 p-4 my-4">
     <nav>
       <div v-for="(sublinks, group) in sortedLinks" :key="`link-${group}`">
         <h3

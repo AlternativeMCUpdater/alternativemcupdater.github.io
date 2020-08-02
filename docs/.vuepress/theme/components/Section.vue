@@ -1,16 +1,19 @@
 <template>
   <section
-    class="p-20 max-w-6xl mx-auto flex"
+    class="px-5 py-10 md:p-20 max-w-6xl mx-auto flex flex-col-reverse"
     :class="{
-      'flex-row': side === 'left',
-      'flex-row-reverse': side === 'right',
+      'md:flex-row': side === 'left',
+      'md:flex-row-reverse': side === 'right',
     }"
   >
     <div
-      class="flex-1 flex flex-col"
-      :class="{ 'text-right': side === 'right' }"
+      class="flex-1 flex flex-col text-center"
+      :class="{
+        'md:text-right': side === 'right',
+        'md:text-left': side === 'left',
+      }"
     >
-      <h1 class="uppercase font-bold font-sans text-4xl">
+      <h1 class="uppercase font-bold font-sans text-2xl md:text-4xl">
         <slot name="title"></slot>
       </h1>
 
@@ -18,7 +21,7 @@
         <slot name="content"></slot>
       </p>
     </div>
-    <div class="flex-1 flex justify-center items-center">
+    <div class="flex-1 flex justify-center items-center p-8 md:p-0">
       <slot name="second-content"></slot>
     </div>
   </section>
