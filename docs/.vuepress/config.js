@@ -52,6 +52,7 @@ module.exports = {
         "flow-updater",
         "minecraft-launcher-core",
         "minelaup",
+        "s-update",
       ],
       "/cours/": [""],
     },
