@@ -8,7 +8,7 @@ position: 1
 
 
 
-Un discord a été crée afin de faciliter la contribution, le support, la mise en place de tutoriels et la communication avec les développeurs.
+Un  [serveur Discord](https://discord.gg/yvv78kV) a été crée afin de faciliter la contribution, le support, la mise en place de tutoriels et la communication avec les développeurs.
 Le projet est disponible avec sa documentation sur cette page :
 
 <Github repo="FlowArg/FlowUpdater" class="mx-16 mt-4"/>
